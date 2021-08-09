@@ -8,6 +8,7 @@ COMPANY_IDEAS = File.read('company-ideas.txt').split("\n").map(&:strip)
 OPEN_SOURCE_IDEAS = File.read('open-source-ideas.txt').split("\n").map(&:strip)
 
 def html(idea, open_source: false)
+  idea = idea.gsub(/\[[^\]]+\] /, '')
   <<~HTML
     <!DOCTYPE html>
       <html>
@@ -26,7 +27,9 @@ def html(idea, open_source: false)
         }
 
         .container h2 {
-          margin-top: 30px;
+          margin: 30px auto;
+          text-align: center;
+          width: 80%;
         }
 
         .footer {
@@ -46,6 +49,15 @@ def html(idea, open_source: false)
           </h2>
 
           <div class="footer">
+            <a href='#{open_source ? '/open-source' : '/'}'>next</a>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
             ideas not thought up by <a href='https://twitter.com/tectonic'>@tectonic</a>
           </div>
         </div>
