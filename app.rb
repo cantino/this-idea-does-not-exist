@@ -41,7 +41,7 @@ def html(idea, open_source: false)
       </head>
       <body>
         <div class="container">
-          <span>This Idea Does Not Exist | </span>
+          <span>This Idea Does Not Exist* | </span>
           <span>[#{open_source ? "<a href='/'>companies</a>" : "companies"}]</span>
           <span>[#{open_source ? "open source projects" : "<a href='/open-source'>open source projects</a>"}]</span>
           <h2>
@@ -57,6 +57,8 @@ def html(idea, open_source: false)
             <br/>
             <br/>
             <br/>
+            <br/>
+            * ideas may actually exist. use for ideation.
             <br/>
             ideas not thought up by <a href='https://twitter.com/tectonic'>@tectonic</a>
           </div>

@@ -9243,7 +9243,6 @@
 [Tags: Organization, Time] A website that lets you find people you know based on times you've been in contact.
 [Tags: Organizing, Life] An organizing service that uses an AI to help you better manage your day.
 [Tags: Outdoor Activities, Productivity] A website that allows people to post their workouts so others nearby can join them.
-[Tags: Overpopulation, Population] An online service that allows you to register to be killed so that your organs can be harvested to save someone else's life.
 [Tags: P2P, Sharing] A website that lets people share their unused time, like their extra hours at their job, or their downtime at home.
 [Tags: P2P, Travel] A service that allows you to find other people to share a cab with on your way to the airport.
 [Tags: Painting, Art] A service that lets you have an artist create a painting for you of anything you want.

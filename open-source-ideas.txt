@@ -1516,7 +1516,6 @@ A game jam that gathers a community of developers around a theme each month.
 A game jam that has you build an entire game from a random theme.
 A game of competitive text editing.
 A game of luck, skill, and reflexes that lets you control a constantly-growing tree.
-A game of the genre “Super Crate Box”, where you have to kill enemies in increasingly difficult levels with different guns.
 A game server API for writing multiplayer games, multiplayer bots, and matchmaking servers.
 A game server for Minecraft written in Go and programmed to be self-hosted.
 A game server for the game Escape from Tarkov.
